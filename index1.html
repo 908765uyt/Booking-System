@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Room Booking System</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meeting Room Booking System</h1>
+        <div>
+            <label for="room-selector">Select a Room:</label>
+            <select id="room-selector"></select>
+            
+        </div>
+        <div>
+            <label for="time-slot">Time Slot:</label>
+            <input type="text" id="time-slot" placeholder="E.g., 9:00-9:30">
+        </div>
+        <button id="book-button">Book Room</button>
+        <button id="cancel-booking-button">Cancel Booking</button>
+        <button id="edit-booking-button">Edit Booking</button>
+        <div class="room-list" id="room-list"></div>
+        <div class="booking-list" id="booking-list"></div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
